@@ -1,0 +1,85 @@
+command_id: 7E0.015C
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E803415C43
+  expected_values:
+    EOT: 27
+- response: 7E803415C44
+  expected_values:
+    EOT: 28
+- response: 7E803415C45
+  expected_values:
+    EOT: 29
+- response: 7E803415C47
+  expected_values:
+    EOT: 31
+- response: 7E803415C48
+  expected_values:
+    EOT: 32
+- response: 7E803415C4A
+  expected_values:
+    EOT: 34
+- response: 7E803415C4B
+  expected_values:
+    EOT: 35
+- response: 7E803415C4C
+  expected_values:
+    EOT: 36
+- response: 7E803415C4E
+  expected_values:
+    EOT: 38
+- response: 7E803415C54
+  expected_values:
+    EOT: 44
+- response: 7E803415C56
+  expected_values:
+    EOT: 46
+- response: 7E803415C57
+  expected_values:
+    EOT: 47
+- response: 7E803415C58
+  expected_values:
+    EOT: 48
+- response: 7E803415C59
+  expected_values:
+    EOT: 49
+- response: 7E803415C5A
+  expected_values:
+    EOT: 50
+- response: 7E803415C5B
+  expected_values:
+    EOT: 51
+- response: 7E803415C5C
+  expected_values:
+    EOT: 52
+- response: 7E803415C5E
+  expected_values:
+    EOT: 54
+- response: 7E803415C62
+  expected_values:
+    EOT: 58
+- response: 7E803415C63
+  expected_values:
+    EOT: 59
+- response: 7E803415C64
+  expected_values:
+    EOT: 60
+- response: 7E803415C66
+  expected_values:
+    EOT: 62
+- response: 7E803415C69
+  expected_values:
+    EOT: 65
+- response: 7E803415C6A
+  expected_values:
+    EOT: 66
+- response: 7E803415C6B
+  expected_values:
+    EOT: 67
+- response: 7E803415C6C
+  expected_values:
+    EOT: 68
+- response: 7E803415C6D
+  expected_values:
+    EOT: 69
