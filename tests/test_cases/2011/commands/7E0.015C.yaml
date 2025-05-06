@@ -2,6 +2,12 @@ command_id: 7E0.015C
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7E803415C34
+  expected_values:
+    EOT: 12
+- response: 7E803415C35
+  expected_values:
+    EOT: 13
 - response: 7E803415C43
   expected_values:
     EOT: 27
