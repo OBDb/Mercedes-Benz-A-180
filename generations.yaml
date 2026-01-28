@@ -1,0 +1,36 @@
+references:
+  - "https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class"
+
+generations:
+  - name: "First Generation (W168)"
+    start_year: 1997
+    end_year: 2004
+    description: "First generation A-Class introduced at Frankfurt Motor Show. Front-wheel drive layout with unusual tall but short body. The A-180 designation was not used in this generation - models included A 140, A 160, A 190, and A 210 Evolution. Facelifted in February 2001 with minor alterations to headlights, bumpers, and longer wheelbase version."
+    platform: "W168"
+    body_styles:
+      - "5-door hatchback"
+
+  - name: "Second Generation (W169)"
+    start_year: 2004
+    end_year: 2012
+    description: "Second generation A-Class with improved safety features including adaptive airbags and active head restraints. The A-180 was introduced as a trim level, particularly in Japan where A 170 was renamed to A 180 in August 2009. Also available as A 180 CDI diesel variant. Facelifted in 2008 with redesigned fascias and lights."
+    platform: "W169"
+    body_styles:
+      - "5-door hatchback"
+      - "3-door coupe"
+
+  - name: "Third Generation (W176)"
+    start_year: 2012
+    end_year: 2018
+    description: "Third generation A-Class reclassified as subcompact executive/C-segment. Built on Mercedes-Benz MFA platform. The A-180 was available as an Urban trim level. Facelifted in Q3 2015 with updated lights and technology."
+    platform: "W176"
+    body_styles:
+      - "5-door hatchback"
+
+  - name: "Fourth Generation (W177)"
+    start_year: 2018
+    description: "Fourth generation A-Class launched in March 2018, available as 5-door hatchback (W177) and 4-door sedan (V177). The A-180 is available as a Progressive trim level. First generation offered in United States and Canada."
+    platform: "W177"
+    body_styles:
+      - "5-door hatchback"
+      - "4-door sedan"
