@@ -4,5 +4,5 @@ test_cases:
     MAP: 57
   response: 7E803410B39
 - expected_values:
-    MAP: 219
-  response: 7E803410BDB
+    MAP: 224
+  response: 7E803410BE0
