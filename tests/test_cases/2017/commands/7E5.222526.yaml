@@ -1,0 +1,5 @@
+command_id: 7E5.222526
+test_cases:
+- expected_values:
+    MERCEDES_HV_COOLANT_T: 0
+  response: '7E8056225268000'
