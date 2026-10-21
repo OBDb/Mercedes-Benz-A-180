@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222095
+test_cases:
+- expected_values:
+    A180_EOT: -54
+  response: '7E80462209500'
+- expected_values:
+    A180_EOT: -52.65
+  response: '7E80462209501'

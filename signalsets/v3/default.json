@@ -29,7 +29,7 @@
   "signals": [
     {"id": "A180_FUEL_RAIL_P", "path": "Fuel", "fmt": { "len": 16, "max": 32758, "mul": 0.4998701, "unit": "kilopascal" }, "name": "Fuel rail pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2095"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2095"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "A180_EOT", "path": "Engine", "fmt": { "len": 8, "max": 290, "min": -54, "mul": 27, "div": 20, "add": -54, "unit": "fahrenheit" }, "name": "Engine oil temperature"}
   ]},
@@ -47,7 +47,7 @@
   "signals": [
     {"id": "A180_ATF_T_VAR_2", "path": "Transmission", "fmt": {"bix": 88, "len": 8, "max": 401, "min": -58, "mul": 9, "div": 5, "add": -58, "unit": "fahrenheit" }, "name": "Transmission fluid temperature, variant 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "0234"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0234"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "A180_ATF_T_VAR_4", "path": "Transmission", "fmt": {"bix": 24, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 4"}
   ]},
