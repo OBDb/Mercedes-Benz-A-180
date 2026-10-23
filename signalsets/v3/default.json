@@ -29,7 +29,7 @@
   "signals": [
     {"id": "A180_FUEL_RAIL_P", "path": "Fuel", "fmt": { "len": 16, "max": 32758, "mul": 0.4998701, "unit": "kilopascal" }, "name": "Fuel rail pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2095"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2095"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A180_EOT", "path": "Engine", "fmt": { "len": 8, "max": 290, "min": -54, "mul": 27, "div": 20, "add": -54, "unit": "fahrenheit" }, "name": "Engine oil temperature"}
   ]},

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     A180_7E5_2526_RAW: 32768
   response: '7E8056225268000'
+- expected_values:
+    A180_7E5_2526_RAW: 35939
+  response: 7E8056225268C63
