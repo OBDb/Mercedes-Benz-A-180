@@ -1,10 +1,10 @@
 { "commands": [
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0163"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0163"}, "freq": 5, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "A180_BOOST_AIR_T", "path": "Engine", "fmt": {"bix": 48,  "len": 16, "max": 6280,  "min": -273,   "div": 10, "add": -273.1,               "unit": "celsius" }, "name": "Boost air temperature"},
     {"id": "A180_BOOST_P",     "path": "Engine", "fmt": {"bix": 120, "len": 16, "max": 32767, "min": -32768,                           "sign": true, "unit": "unknown" }, "name": "Boost pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0168"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0168"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "A180_EXH_BACK_P", "path": "Engine", "fmt": {            "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Exhaust back pressure"},
     {"id": "A180_DPF_DIFF_P", "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure"}
@@ -13,7 +13,7 @@
   "signals": [
     {"id": "A180_ODO", "path": "Trips", "fmt": {"bix": 288, "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "016F"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "016F"}, "freq": 5, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "A180_FUEL_T", "path": "Fuel", "fmt": {"bix": 128, "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
